@@ -218,7 +218,7 @@ acronym {
 /* Gallery Section */
 .article {
   flex: 0 0 70%;
-  padding: 2%;
+  padding: 1.2% 1.2% 0% 1.2%;
 }
 
 .article h1 {
@@ -226,22 +226,21 @@ acronym {
   color: #1e1e1e;
   font-weight: 700;
   text-align: center;
-  margin-bottom: 24px;
-}
-
-.gallery-section {
-  align-items: stretch;
+  margin: 16px 0px 24px 0px;
 }
 
 .gallery-img {
-  flex: 0 1 48.5%;
+  display: inline-block;
+  margin: 0% 1.2%;
+  width: 47%;
   margin-bottom: 3%;
+  vertical-align: top;
 }
 
 .gallery-img img {
   width: 100%;
+  height: 300px;
   border: 2px solid #000;
   border-radius: 6px;
   object-fit: cover;
-  height: 100%;
 }
